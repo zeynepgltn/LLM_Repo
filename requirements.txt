@@ -1,0 +1,7 @@
+tokenizers 
+transformers 
+tiktoken 
+jupyter 
+torch
+torchvision
+torchaudio
