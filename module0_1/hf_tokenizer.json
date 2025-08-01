@@ -1,0 +1,276 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "[UNK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "[PAD]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "[CLS]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "[SEP]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 4,
+      "content": "[MASK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": null,
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "[UNK]": 0,
+      "[PAD]": 1,
+      "[CLS]": 2,
+      "[SEP]": 3,
+      "[MASK]": 4,
+      ",": 5,
+      ".": 6,
+      "a": 7,
+      "b": 8,
+      "c": 9,
+      "d": 10,
+      "e": 11,
+      "f": 12,
+      "g": 13,
+      "h": 14,
+      "i": 15,
+      "k": 16,
+      "l": 17,
+      "m": 18,
+      "n": 19,
+      "o": 20,
+      "p": 21,
+      "q": 22,
+      "r": 23,
+      "s": 24,
+      "t": 25,
+      "u": 26,
+      "w": 27,
+      "y": 28,
+      "it": 29,
+      "is": 30,
+      "th": 31,
+      "the": 32,
+      "an": 33,
+      "al": 34,
+      "ital": 35,
+      "in": 36,
+      "ap": 37,
+      "cap": 38,
+      "capital": 39,
+      "of": 40,
+      "on": 41,
+      "or": 42,
+      "and": 43,
+      "un": 44,
+      "ac": 45,
+      "ar": 46,
+      "ed": 47,
+      "en": 48,
+      "ur": 49,
+      "no": 50,
+      "es": 51,
+      "ma": 52,
+      "eac": 53,
+      "ited": 54,
+      "united": 55,
+      "each": 56,
+      "ent": 57,
+      "not": 58,
+      "ri": 59,
+      "se": 60,
+      "these": 61,
+      "mad": 62,
+      "eur": 63
+    },
+    "merges": [
+      [
+        "i",
+        "t"
+      ],
+      [
+        "i",
+        "s"
+      ],
+      [
+        "t",
+        "h"
+      ],
+      [
+        "th",
+        "e"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "a",
+        "l"
+      ],
+      [
+        "it",
+        "al"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "a",
+        "p"
+      ],
+      [
+        "c",
+        "ap"
+      ],
+      [
+        "cap",
+        "ital"
+      ],
+      [
+        "o",
+        "f"
+      ],
+      [
+        "o",
+        "n"
+      ],
+      [
+        "o",
+        "r"
+      ],
+      [
+        "an",
+        "d"
+      ],
+      [
+        "u",
+        "n"
+      ],
+      [
+        "a",
+        "c"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "e",
+        "d"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "u",
+        "r"
+      ],
+      [
+        "n",
+        "o"
+      ],
+      [
+        "e",
+        "s"
+      ],
+      [
+        "m",
+        "a"
+      ],
+      [
+        "e",
+        "ac"
+      ],
+      [
+        "it",
+        "ed"
+      ],
+      [
+        "un",
+        "ited"
+      ],
+      [
+        "eac",
+        "h"
+      ],
+      [
+        "en",
+        "t"
+      ],
+      [
+        "no",
+        "t"
+      ],
+      [
+        "r",
+        "i"
+      ],
+      [
+        "s",
+        "e"
+      ],
+      [
+        "the",
+        "se"
+      ],
+      [
+        "ma",
+        "d"
+      ],
+      [
+        "e",
+        "ur"
+      ]
+    ]
+  }
+}
