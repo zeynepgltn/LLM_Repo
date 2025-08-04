@@ -3,11 +3,6 @@ from torch.utils.data import Dataset, DataLoader
 
 pad_id = 63
 
-import torch
-from torch.utils.data import Dataset
-
-pad_id = 63
-
 class TextDataset(Dataset):
     def __init__(self, token_ids: list, context_length: int, stride: int):
         super().__init__()
