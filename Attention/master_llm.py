@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+from master_self_attention import MasterSelfAttention
 
 def get_rotary_position_encoding(input: torch.Tensor, base: 10000, device="cpu"):
     context_length, dimension = input.shape
@@ -36,9 +37,11 @@ class MasterLLM(nn.Module):
 
         self.get_pos = get_rotary_position_encoding
     
+        self.self_attention = MasterSelfAttention(embedding_dim, embedding_dim)
 
     def forward(self, x):
         x = self.embedding(x)#sözlük anlamları
         x = self.get_pos(x, base=10000, device=x.device) #position anlamları
+        x = self.self_attention(x)
         return x
     
