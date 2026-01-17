@@ -1,7 +1,5 @@
 import torch
 import torch.nn as nn 
-from master_norm import MasterLayerNorm
-from master_mlp import MasterMLP
 from master_decoder_block import MasterDecoderBlock
 
 def get_rotary_position_encoding(input: torch.Tensor, base: 10000, device="cpu"):

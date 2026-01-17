@@ -3,6 +3,7 @@ from master_multi_head_attention import MasterMultiHeadAttention
 from master_norm import MasterLayerNorm
 from master_mlp import MasterMLP
 
+
 class MasterDecoderBlock(nn.Module):
   def __init__(self, embedding_dim, num_heads, context_length):
     super().__init__()
